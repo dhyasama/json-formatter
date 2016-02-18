@@ -9,4 +9,6 @@ Takes two arguments:
 
 Run like so: node index.js my-ugly-file.json my-beautiful-file.json
 
-# Or you can use jq like a boss - https://stedolan.github.io/jq/
+Or you can use jq (https://stedolan.github.io/jq/)
+
+cat your-input.json | jq '.'
